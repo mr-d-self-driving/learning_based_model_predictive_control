@@ -6,3 +6,6 @@ https://www.research-collection.ethz.ch/handle/20.500.11850/351561
 
 I am doing this implementation purely to understand the concept as detailed as possible in preperation for an interview for a master's thesis.
 All credit for the development of this framework goes to Kabzan et.al..
+
+Future Plan: 
+creating a proper class "Enhanced MPC controler" that takes in the state measurements of the vehicle, A trained GPR model and a Track to follow, and outputs a steering command. Possible optimization Solvers: CasADi, Scipy.solve()
